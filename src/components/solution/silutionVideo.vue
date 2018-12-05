@@ -10,34 +10,58 @@
     <div class="silutionVideo-list">
        <ul class="clearfix">
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
                 <li>
-                    <div>青少年康复过</div>
-                </li>
-                <li>
-                    <div>青少年康复过</div>
+                    <div class="content">
+                        <div class="title">青少年康复过</div>
+                        <div class="btn">查看信息</div>
+                    </div>   
                 </li>
             </ul>
     </div>
@@ -103,10 +127,26 @@
         float: left;
         background-image: url('./../../assets/actionList/3_10.png');
         background-size:100% 100%;
-        line-height: 18.3vh;
         font-size: 0.4rem;
         font-weight: 550;
         letter-spacing: 0.5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .silutionVideo-list>ul>li>div{
+        width: 100%;
+    }
+    .silutionVideo-list>ul>li>.content>.btn{
+        width: 22.1vw;
+        height: 3.7vh;
+        text-align: center;
+        line-height: 3.7vh;
+        background: #FB6860;
+        border-radius: 0.1rem;
+        font-size: 0.28rem;
+        margin: 0 auto;
+        margin-top:2.4vh;
     }
 </style>
 
