@@ -5,6 +5,7 @@ import Home from './../components/home.vue'
 import SetStudents from './../components/user/setStudents.vue'
 import SearchStudents from './../components/user/searchStudents.vue'
 import SetStudentsInfo from './../components/user/setStudentsInfo.vue'
+import TestAction from './../components/user/testAction.vue'
 
 Vue.use(Router)
 
@@ -29,6 +30,10 @@ export default new Router({
     {
       path:'/setStudentsInfo',
       component:SetStudentsInfo
+    },
+    {
+      path:'/testAction',
+      component:TestAction
     }
   ]
 })
