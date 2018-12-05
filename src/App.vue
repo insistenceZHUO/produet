@@ -19,19 +19,16 @@ export default {
 }
 html{
   font-size: 50px;
-  /* overflow-y: scroll; */
 }
 html,body,#app{
   height: 100%;
 }
-
 /*外边距溢出*/
 .margin:before{
     content: "";
     display:table;
     /*color:black;*/
     }
-       
     .fl{
         float: left;
     }

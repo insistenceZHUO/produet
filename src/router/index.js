@@ -10,6 +10,8 @@ import ActionDesc from './../components/action/actionDesc'
 import ActionList from './../components/action/actionList'
 import ActionInfo from './../components/action/actionInfo'
 import Silution from './../components/solution/silution'
+import SilutionVideo from './../components/solution/silutionVideo'
+
 
 Vue.use(Router)
 
@@ -56,10 +58,15 @@ export default new Router({
       // name: 'HelloWorld',
       component: ActionInfo
     },
+    // 解决方案
     {
       path: '/silution',
       // name: 'HelloWorld',
       component: Silution
+    },
+    {
+      path:'/silutionVideo',
+      component:SilutionVideo
     }
   ]
 })
