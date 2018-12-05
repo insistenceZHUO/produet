@@ -31,4 +31,17 @@ html,body,#app{
     display:table;
     /*color:black;*/
     }
+       
+    .fl{
+        float: left;
+    }
+    .fr{
+        float:right;
+    }
+        /* 清除浮动 */
+    .clearfix:after{
+        content:"";      
+        display:block;             
+        clear:both;             
+    }
 </style>

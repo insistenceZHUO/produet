@@ -6,11 +6,16 @@ import SetStudents from './../components/user/setStudents.vue'
 import SearchStudents from './../components/user/searchStudents.vue'
 import SetStudentsInfo from './../components/user/setStudentsInfo.vue'
 import TestAction from './../components/user/testAction.vue'
+import ActionDesc from './../components/action/actionDesc'
+import ActionList from './../components/action/actionList'
+import ActionInfo from './../components/action/actionInfo'
+import Silution from './../components/solution/silution'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [
+    // 用户信息设置
     {
       path: '/',
       name: 'HelloWorld',
@@ -31,9 +36,30 @@ export default new Router({
       path:'/setStudentsInfo',
       component:SetStudentsInfo
     },
+    // 康复动作
     {
       path:'/testAction',
       component:TestAction
+    },
+    {
+      path: '/actionDesc',
+      // name: 'HelloWorld',
+      component: ActionDesc
+    },
+    {
+      path: '/actionList',
+      // name: 'HelloWorld',
+      component: ActionList
+    },
+    {
+      path: '/actionInfo',
+      // name: 'HelloWorld',
+      component: ActionInfo
+    },
+    {
+      path: '/silution',
+      // name: 'HelloWorld',
+      component: Silution
     }
   ]
 })
