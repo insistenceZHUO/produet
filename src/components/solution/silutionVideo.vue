@@ -127,22 +127,24 @@
         float: left;
         background-image: url('./../../assets/actionList/3_10.png');
         background-size:100% 100%;
-        font-size: 0.4rem;
+        font-size: 0.36rem;
+        font-family: "dahei";
         font-weight: 550;
         letter-spacing: 0.5vw;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .silutionVideo-list>ul>li>div{
+    /* .silutionVideo-list>ul>li>div{
         width: 100%;
-    }
+    } */
     .silutionVideo-list>ul>li>.content>.btn{
         width: 22.1vw;
         height: 3.7vh;
         text-align: center;
         line-height: 3.7vh;
         background: #FB6860;
+        font-family: "zhonghei";
         border-radius: 0.1rem;
         font-size: 0.28rem;
         margin: 0 auto;

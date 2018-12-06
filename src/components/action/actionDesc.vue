@@ -76,7 +76,8 @@
     }
     .actionDesc>.title{
         width: 100%;
-        font-size: 0.36rem;
+        font-size: 0.30rem;
+        font-family: "zhongcuhei";
         font-weight: bold;
         color:aliceblue;
     }
@@ -102,6 +103,9 @@
     .content-font>.font-title{
          width: 90%;
          margin: 0 auto;
+         font-size:0.32rem;
+         font-weight: bold;
+         font-family: "zhongcuhei";
          margin-bottom: 2vh;
          text-align: left;
         /* font-size:1 */
@@ -110,8 +114,11 @@
         width: 90%;
         text-align: left;
         margin: 0 auto;
+         font-size:0.30rem;
+         font-weight: bold;
+         font-family: "zhongcuhei";
         line-height: 4vh;
-        text-indent: 5.2vh;
+        text-indent: 6vh;
     }
 </style>
 

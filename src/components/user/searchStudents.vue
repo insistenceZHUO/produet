@@ -21,7 +21,7 @@
                              <div class="left"><img src="./../../assets/searchStudents/head.png"></div>
                              <div class="center">
                                  <div class="top"><span>王小红 </span><img src="./../../assets/searchStudents/man.png"></div>
-                                 <div class="bottom"><span>12岁</span><span>18077112512</span></div>
+                                 <div class="bottom"><span>12岁</span><span style="margin-left:4vw;">18077112512</span></div>
                             </div>
                             <div class="right">康复治疗</div>
                      </div>
@@ -73,7 +73,7 @@
                                  <div class="top"><span>王小红 </span><img src="./../../assets/searchStudents/man.png"></div>
                                  <div class="bottom"><span>12岁</span><span>18077112512</span></div>
                             </div>
-                            <div class="right">康复治疗</div>
+                            <div class="right">康复档案</div>
                      </div>
                  </li>
              </ul>
@@ -86,14 +86,15 @@
         width: 100%;
         height: 100%;
         background-image: url("./../../assets/home/home.png");
+        background-size:100% 100%;
     }
     .searchStudents>.stata{
         width: 100%;
-        height: 0.4rem;
+        height:3vh;
     }
     .searchStudents>.header{
         width: 100%;
-        height: 0.8rem;
+        height: 6vh;
         display: flex;
         align-items: center;
         position: relative;
@@ -111,11 +112,12 @@
     }
     .header-title{
         font-size: 0.4rem;
+        font-family: "zhongcuhei";
         text-align: center;
         margin: 0 auto;
     }
      .search{
-         margin-top:0.14rem;
+         margin-top:1vh;
          position: relative;
          display: flex;
          align-items: center;
@@ -126,32 +128,35 @@
         width: 0.5rem;
         height: 0.5rem;
         position: absolute;
-        left: 0.50rem;
+        left: 6.6vw;
         top: 0;
         bottom: 0;
         margin: auto;
     }
 .search>input{
     width: 80%;
-    height: 0.68rem;
-    padding-left:0.66rem;
+    height: 5.1vh;
+    font-size: 0.28rem;
+    color:#757575;
+    padding-left:10vw;
     border-radius: 0.1rem;
 }
 .content{
     width: 100%;
      margin: 0 auto;
-     margin-top: 0.5rem;
+     margin-top: 3.7vh;
+     padding-bottom:2vh;
 }
 .content>.one{
-    width: 5.3rem;
-    height: 0.32rem;
+    width: 71vw;
+    height:2.4vh;
     border-top-left-radius:0.1rem; 
     border-top-right-radius:0.1rem; 
     background: #C0DAF4;
      margin: 0 auto;
 }
 .content>.two{
-    height: 0.38rem;
+    height: 2.8vh;
      margin: 0 auto;
     width: 80%;
      border-top-left-radius:0.1rem; 
@@ -165,8 +170,8 @@
     margin: 0 auto;
 }
 .three>ul{
-     border-top-left-radius:0.2rem; 
-    border-top-right-radius:0.2rem;
+     border-top-left-radius:0.4rem; 
+    border-top-right-radius:0.4rem;
 }
 .three>ul>li{
     display:flex;
@@ -174,20 +179,22 @@
     color:#000;
     background:#fff;
     width: 100%;
-    height: 1.56rem;
+    height: 11.7vh;
+   
 }
 .three>ul>li>.list{
     display: flex;
     width: 88.4%;
-    height: 1.56rem;
+    height: 11.7vh;
+    
    border-bottom:1px solid #ECEBEB;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
 .list>.left{
-    width: 0.6rem;
-    height: 0.6rem;
+    width: 1rem;
+    height: 1rem;
 }
 .list>.left>img{
     width: 100%;
@@ -200,17 +207,30 @@
 }
 .list>.center>.top{
     font-size: 0.3rem;
+    text-align: left;
+    font-family: "zhonghei";
     font-weight: bold;
+    color:#413E3A;
 }
 .list>.center>.bottom{
     font-size:0.24rem;
+    font-family: "hei";
+    color:#52504C;
 }
 .list>.center>.top>img{
     width: 0.4rem;
     height: 0.4rem;
 }
-.list>.center>.right{
+.list>.right{
+    width: 21.8vw;
+    height: 4.7vh;
+    background:#FB6860;
     font-size: 0.32rem;
+    text-align: center;
+    line-height: 4.7vh;
+    border-radius: 0.1rem;
+    font-family: "zhonghei";
+    color:#fff;
 }
 /*.search>input{
         width: 6.5rem;

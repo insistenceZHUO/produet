@@ -6,11 +6,18 @@ import SetStudents from './../components/user/setStudents.vue'
 import SearchStudents from './../components/user/searchStudents.vue'
 import SetStudentsInfo from './../components/user/setStudentsInfo.vue'
 import TestAction from './../components/user/testAction.vue'
+
 import ActionDesc from './../components/action/actionDesc'
 import ActionList from './../components/action/actionList'
 import ActionInfo from './../components/action/actionInfo'
+
 import Silution from './../components/solution/silution'
 import SilutionVideo from './../components/solution/silutionVideo'
+import SilutionAction from './../components/solution/solutionAction'
+import SolutionList from './../components/solution/solutionList'
+import VideoList from './../components/solution/videoList'
+import ActionRecovery from './../components/solution/actionRecovery'
+
 
 
 Vue.use(Router)
@@ -67,6 +74,21 @@ export default new Router({
     {
       path:'/silutionVideo',
       component:SilutionVideo
+    },
+    {
+      path:'/solutionAction',
+      component:SilutionAction
+    },
+    {
+      path:'/solutionList',
+      component:SolutionList
+    },
+    {
+      path:'/videoList',
+      component:VideoList
+    },{
+      path:'/actionRecovery',
+      component:ActionRecovery
     }
   ]
 })

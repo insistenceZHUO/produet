@@ -10,22 +10,28 @@
         <div class="action-list">
             <ul class="clearfix">
                 <li>
-                    <div>颈椎部位</div>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
                 </li>
                 <li>
-                    <div>颈椎部位</div>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
                 </li>
                 <li>
-                    <div>颈椎部位</div>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
                 </li>
                 <li>
-                    <div>颈椎部位</div>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
                 </li>
                 <li>
-                    <div>颈椎部位</div>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
                 </li>
                 <li>
-                    <div>颈椎部位</div>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
+                </li>
+                <li>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
+                </li>
+                <li>
+                    <div><img src="./../../assets/solutionAction/video.png"></div>
                 </li>
             </ul>
         </div>
@@ -45,7 +51,7 @@
         font-size:0.36rem;
         font-family: "dahei";
         font-weight: bold;
-        padding-bottom: 15.2vh;
+        padding-bottom: 6.8vh;
     }
     .actionList>.stata{
         height:3.2vh;
@@ -87,15 +93,23 @@
         width: 42vw;
         margin-left: 1.5vw;
         margin-right: 1.5vw;
-        margin-top: 1.4vh;
-        height: 23vh;
+        margin-top: 2.4vh;
+        height: 18vh;
         float: left;
-        background-image: url('./../../assets/actionList/3_10.png');
         background-size:100% 100%;
-        line-height: 23vh;
-        font-size: 0.4rem;
-        font-weight: 550;
-        letter-spacing: 0.5vw;
+        background: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.15rem;
     }
+     .action-list>ul>li>div{
+         width: 14.6vw;
+         height: 14.6vw;
+     }
+     .action-list>ul>li>div>img{
+         width: 100%;
+         height: 100%;
+     }
 </style>
 

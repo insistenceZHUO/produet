@@ -15,7 +15,7 @@
             </div>
             <div class="add-student">
                     <div class="add-student-info"><img src="./../../assets/setStudent/3_27.png"></div>
-                    <p>新增学员</p>
+                    <p>我的学员</p>
             </div>
             <!--<div></div>-->
             <!--<div class=""></div>-->
@@ -34,6 +34,7 @@ export default {
         width: 100%;
         height: 100%;
         background-image: url('./../../assets/home/home.png');
+        background-size: 100% 100%;
     }
     .setStudents>.contnet{
         width: 100%;
@@ -41,12 +42,20 @@ export default {
     }
     .setStudents>.contnet>.title{
         margin-top:0.5rem;
+        font-size: 0.48rem;
+          color:#ffffff;
+        font-family: "zhongcuhei";
     }
     .setStudents>.contnet>.text{
         margin:0 auto;
         margin-top:0.5rem;
-        font-size:0.15rem;
+        font-size:0.3rem;
+        font-family: "zhonghei";
+        /* font-weight: bold; */
+        line-height: 0.5rem;
+        letter-spacing: 0.5vw;
         width: 88%;
+        color:#ffffff;
         text-indent:0.3rem;
         text-align: left;
     }
@@ -58,19 +67,35 @@ export default {
         justify-content: center;
     }
     .add-student{
-        width: 1.5rem;
+        width: 46.6vw;
         margin: 0 auto;
-        height: 1.5rem;
-        font-size: 0.22rem;
+        height: 23vh;
+        font-size: 0.4rem;
+        font-family: "zhongcuhei";
+        font-weight: 550;
         margin-top:.2rem; 
-        color: #000;
+        color: #413E3C;
         background: #ffffff;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
     .margin:before{
     content: "";
     display:table;
     /*color:black;*/
+    }
+    .add-student-info{
+        width: 15.2vw;
+        height: 8.2vh;
+    }
+    .add-student-info>img{
+        width: 100%;
+        height: 100%;
+    }
+    .add-student>p{
+        margin-top:3.5vh;
     }
 </style>
 

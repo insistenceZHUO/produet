@@ -27,7 +27,7 @@
     </div>
     <div class="content-font">
        <div class="font-title">
-                动作描述
+                评估结果
             </div>
             <div class="font-text">
                 水中康复运动是通过 “侵入式” 的方式来进行一系列恢复活动能力及生理功能的临床治疗康复过程，有时也会对心理转化转化产生影响，该技术广泛用于脑性瘫痪，神经系统疾病，
@@ -90,7 +90,8 @@
     .student-info>.item{
       width: 90%;
       padding: 1.3vh 0;
-      font-size: 0.40rem;
+      font-size: 0.30rem;
+      font-family: "zhonghei";
       text-align:left;
     }
     .content-font{
@@ -102,6 +103,8 @@
     .content-font>.font-title{
          width: 90%;
          margin: 0 auto;
+         font-family: "zhongcuhei";
+         font-size: 0.32rem;
          margin-bottom: 2vh;
          text-align: left;
         /* font-size:1 */
@@ -111,12 +114,18 @@
         text-align: left;
         margin: 0 auto;
         line-height: 4vh;
+        font-size: 0.30rem;
         text-indent: 5.2vh;
+        font-family: "zhonghei";
     }
     .btn{
         width: 100%;
         display: flex;
         justify-content: center;
+        font-family: "zhonghei";
+        font-size: 0.32rem;
+        font-weight: bold;
+        letter-spacing: 0.7vw;
     }
     .btn-left,.btn-right{
         width: 43.2vw;
