@@ -125,8 +125,8 @@
          justify-content: center;
     } 
     .search>img{
-        width: 0.5rem;
-        height: 0.5rem;
+        width: 5vw;
+        height: 5vw;
         position: absolute;
         left: 6.6vw;
         top: 0;

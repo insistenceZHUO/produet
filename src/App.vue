@@ -23,9 +23,9 @@ html{
 }
 html,body,#app{
   height: 100%;
-  
+  letter-spacing: 0.2vw;
 }
-@font-face {  
+@font-face { 
   font-family: 'dahei';
   src: url('./assets/font/DaHei.ttf');
 }

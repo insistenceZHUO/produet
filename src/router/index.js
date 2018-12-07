@@ -10,6 +10,7 @@ import TestAction from './../components/user/testAction.vue'
 import ActionDesc from './../components/action/actionDesc'
 import ActionList from './../components/action/actionList'
 import ActionInfo from './../components/action/actionInfo'
+import ActionChart from './../components/action/actionChart'
 
 import Silution from './../components/solution/silution'
 import SilutionVideo from './../components/solution/silutionVideo'
@@ -17,6 +18,7 @@ import SilutionAction from './../components/solution/solutionAction'
 import SolutionList from './../components/solution/solutionList'
 import VideoList from './../components/solution/videoList'
 import ActionRecovery from './../components/solution/actionRecovery'
+
 
 
 
@@ -89,6 +91,11 @@ export default new Router({
     },{
       path:'/actionRecovery',
       component:ActionRecovery
-    }
+    },
+    {
+      path:'/actionChart',
+      component:  ActionChart
+    },
+  
   ]
 })

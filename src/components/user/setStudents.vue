@@ -43,15 +43,14 @@ export default {
     .setStudents>.contnet>.title{
         margin-top:0.5rem;
         font-size: 0.48rem;
-          color:#ffffff;
+        color:#ffffff;
         font-family: "zhongcuhei";
     }
     .setStudents>.contnet>.text{
         margin:0 auto;
-        margin-top:0.5rem;
+        margin-top:3.7vh;
         font-size:0.3rem;
         font-family: "zhonghei";
-        /* font-weight: bold; */
         line-height: 0.5rem;
         letter-spacing: 0.5vw;
         width: 88%;
@@ -73,7 +72,9 @@ export default {
         font-size: 0.4rem;
         font-family: "zhongcuhei";
         font-weight: 550;
-        margin-top:.2rem; 
+        margin-top:1.5vh; 
+        border-radius:0.15rem;
+        /* box-shadow:1vw 1vh 1vw 1vw #000; */
         color: #413E3C;
         background: #ffffff;
         display: flex;
