@@ -2,9 +2,9 @@
     <div class="actionDesc">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black">
+            <router-link to="/testAction" class="header-black">
                 <img src="./../../assets/home/back.png">
-            </div>
+            </router-link>
         </div>
         <div class="content-img">
             <div class="content-block">
@@ -25,6 +25,10 @@
                 水中康复运动是通过 “侵入式” 的方式来进行一系列恢复活动能力及生理功能的临床治疗康复过程，有时也会对心理转化转化产生影响，该技术广泛用于脑性瘫痪，神经系统疾病，
                 平衡活稳定障碍，骨科手术或损伤后以及脊髓伤等。 
             </div>
+        </div>
+        <div class="btn">
+            <router-link tag="div"to="/actionInfo" class="yes">能</router-link>
+            <router-link tag="div"to="/actionInfo" class="no">不能</router-link>
         </div>
     </div>
 </template>
@@ -51,6 +55,12 @@
         display: flex;
         align-items: center;
     }
+     /*.header-black{
+        position: absolute;
+        width: 0.6rem;
+        height: 0.6rem;
+        padding-left:0.4rem;
+    }*/
     .actionDesc>.header>.header-black{
         width: 10vw;
         margin-left:5.3vw;
@@ -119,6 +129,28 @@
          font-family: "zhongcuhei";
         line-height: 4vh;
         text-indent: 6vh;
+    }
+    .btn{
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+    }
+    .yes{
+         width: 43.2vw;
+        height: 5.5vh;
+        background: #FB6860;
+        display: flex;justify-content: center;
+        align-items: center;
+        border-radius: 0.1rem;
+    }
+    .no{
+        width: 43.2vw;
+        height: 5.5vh;
+        /*background: #FB6860;*/
+         display: flex;justify-content: center;
+        align-items: center;
+        border-radius: 0.1rem;
+        border: 0.01rem solid #ffffff;
     }
 </style>
 

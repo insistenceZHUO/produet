@@ -29,8 +29,8 @@ export default new Router({
     // 用户信息设置
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: '',
+      component: Home
     },
     {
       path:'/home',

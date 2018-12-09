@@ -2,9 +2,9 @@
     <div class="silution">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black">
+            <router-link tag="div" to="/actionChart" class="header-black">
                 <img src="./../../assets/home/back.png">
-            </div>
+            </router-link>
         <div class="header-title">解决方案</div>
     </div>
     <div class="silution-item">

@@ -2,9 +2,9 @@
     <div class="solutionAction">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black">
+            <router-link  tag="div" to="/silutionVideo"class="header-black">
                 <img src="./../../assets/home/back.png">
-            </div>
+            </router-link>
         <div class="header-title">腰背部分</div>
         <div class="header-home"><img src="./../../assets/solutionAction/right.png"></div>
     </div>

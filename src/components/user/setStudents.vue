@@ -9,14 +9,14 @@
           </P>
       </div>
       <div class="set-info">
-            <div class="add-student">
+            <router-link tag="div" to="/setStudentsInfo" class="add-student">
                     <div class="add-student-info"><img src="./../../assets/setStudent/3_27.png"></div>
                     <p>新增学员</p>
-            </div>
-            <div class="add-student">
+            </router-link>
+            <router-link tag="div" to="/searchStudents" class="add-student">
                     <div class="add-student-info"><img src="./../../assets/setStudent/3_27.png"></div>
                     <p>我的学员</p>
-            </div>
+            </router-link>
             <!--<div></div>-->
             <!--<div class=""></div>-->
       </div>

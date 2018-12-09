@@ -2,31 +2,31 @@
     <div class="actionList">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black">
+            <router-link tag="div" to="/setStudentsInfo" class="header-black">
                 <img src="./../../assets/home/back.png">
-            </div>
+            </router-link>
             <div class="header-title">评估</div>
         </div>
         <div class="action-list">
             <ul class="clearfix">
-                <li>
+                <router-link tag="li" to="/testAction">
                     <div>颈椎部位</div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/testAction">
                     <div>颈椎部位</div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/testAction">
                     <div>颈椎部位</div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/testAction">
                     <div>颈椎部位</div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/testAction">
                     <div>颈椎部位</div>
-                </li>
-                <li>
+                </router-link>
+                <router-link tag="li" to="/testAction">
                     <div>颈椎部位</div>
-                </li>
+                </router-link>
             </ul>
         </div>
     </div>

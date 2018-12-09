@@ -7,7 +7,7 @@ import './assets/style/reset.css'
 import ECharts from 'vue-echarts/components/ECharts'
 import 'echarts/lib/chart/bar'
 import 'echarts/lib/component/tooltip'
-
+import './assets/font_957725_cu2wm496cz5/iconfont.css'
 
 Vue.config.productionTip = false
 Vue.component('v-chart', ECharts)

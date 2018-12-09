@@ -2,7 +2,7 @@
     <div class="searchStudents">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black"><img src="./../../assets/searchStudents/black.png"></div>
+            <router-link tag="div" to="/setStudents" class="header-black"><img src="./../../assets/searchStudents/black.png"></router-link>
             <div class="header-title">
                 水中运动康复
             </div>

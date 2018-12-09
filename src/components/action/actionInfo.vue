@@ -2,10 +2,10 @@
     <div class="actionInfo">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black">
+            <router-link tag="div" to="/actionDesc" class="header-black">
                 <img src="./../../assets/home/back.png">
-            </div>
-        <div class="header-title">评估</div>
+            </router-link>
+        <div class="header-title">评估报告</div>
     </div>
     <div class="student-info">
         <div class="item">
@@ -35,8 +35,8 @@
             </div>
     </div>
     <div class="btn">
-        <div class="btn-left">重新评估</div>
-        <div class="btn-right">解决方案</div>
+         <router-link tag="div" to="/actionDesc" class="btn-right">重新评估</router-link>
+        <router-link tag="div" to="/actionChart" class="btn-right">解决方案</router-link>
     </div>
 </div>
 </template>

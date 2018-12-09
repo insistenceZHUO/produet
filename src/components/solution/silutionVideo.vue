@@ -2,67 +2,67 @@
     <div class="silutionVideo">
         <div class="stata"></div>
         <div class="header">
-            <div class="header-black">
+            <router-link to="/silution" class="header-black">
                 <img src="./../../assets/home/back.png">
-            </div>
+            </router-link>
         <div class="header-title">课程体系</div>
     </div>
     <div class="silutionVideo-list">
        <ul class="clearfix">
-                <li>
+                <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+               <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+               <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+                <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+                <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+               <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+                <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+                <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
-                <li>
+                </router-link>
+                <router-link to="/solutionAction" tag="li">
                     <div class="content">
                         <div class="title">青少年康复过</div>
                         <div class="btn">查看信息</div>
                     </div>   
-                </li>
+                </router-link>
             </ul>
     </div>
 </div>

@@ -2,7 +2,7 @@
     <div class="setStudentInfo">
          <div class="stata"></div>
         <div class="header">
-            <div class="header-black"><img src="./../../assets/searchStudents/black.png"></div>
+            <router-link tag="div" to="/setStudents" class="header-black"><img src="./../../assets/searchStudents/black.png"></router-link>
         </div>
         <div class="content-img">
             <div class="content-img-item">
@@ -38,7 +38,7 @@
                     <div class="question-title"><span>问题描述</span></div>
                     <div class="textarea"><textarea  style="border:1px solid #A9A8A7; width:100%;"></textarea></div>
                 </div>
-                <div class="btn">保存并开始测试</div>
+                <router-link tag="div" to="/actionList" class="btn">保存并开始测试</router-link>
             </div>
         </div>
     </div>
