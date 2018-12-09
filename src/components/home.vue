@@ -4,7 +4,7 @@
         <img src="./../assets/home/home2.png">
     </div>
     <div class="url">
-        答案点这里
+        <router-link tag="span" to="/setStudents">答案点这里</router-link> 
     </div>
   </div>
 </template>
@@ -20,6 +20,7 @@ export default {
         width: 100%;
         height: 100%;
         background-image: url("./../assets/home/home.png");
+        background-size: 100% 100%;
         display:flex;
         justify-content: center;
         align-items: center;
@@ -38,8 +39,11 @@ export default {
          bottom: 0.7rem;
          border:2px solid #ffffff;
          color: #ffffff;
-         width: 2.2rem;
-         line-height: 0.4rem;
-         height: 0.4rem;
+         width: 50vw;
+         font-family: "zhonghei";
+         /* font-weight: bold; */
+         line-height:8.2vh;
+         font-size:0.54rem;
+         height: 8.2vh;
      }
 </style>

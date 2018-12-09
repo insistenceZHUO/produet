@@ -9,11 +9,11 @@
     </div>
     <div class="silution-item">
         <ul>
-            <li>第一阶段</li>
-            <li>第二阶段</li>
-            <li>第三阶段</li>
-            <li>第四阶段</li>
-            <li>第五阶段</li>
+            <li><div>第一阶段</div></li>
+            <li><div>第一阶段</div></li>
+            <li><div>第一阶段</div></li>
+            <li><div>第一阶段</div></li>
+            <li><div>第一阶段</div></li>
         </ul>
     </div>
     </div>
@@ -70,12 +70,19 @@
         height: 14vh;
         /* border: 1px solid #000; */
         background: #ffffff;
-        color:#FB6860;
         font-weight: bold;
         font-size: 0.38rem;
-        text-align: center;
-        line-height: 14vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 0.2rem;
     }
+     .silution-item>ul>li>div{
+         width: 43.7vw;
+         height: 5.4vh;
+         border-radius: 0.10rem;
+         line-height: 5.4vh;
+         background: #FB6860;
+     }
 </style>
 

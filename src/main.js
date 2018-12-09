@@ -4,10 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import './assets/style/reset.css'
+import ECharts from 'vue-echarts/components/ECharts'
+import 'echarts/lib/chart/bar'
+import 'echarts/lib/component/tooltip'
+
 
 Vue.config.productionTip = false
-
-/* eslint-disable no-new */
+Vue.component('v-chart', ECharts)
 new Vue({
   el: '#app',
   router,
